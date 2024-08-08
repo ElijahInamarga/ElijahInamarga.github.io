@@ -1,0 +1,102 @@
+@font-face {
+    font-family: "Barlow";
+    src: url("../fonts/Barlow-Bold.ttf");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    color: #363634;
+    font-family: Barlow;
+}
+
+body {
+    background-color: #ececec;
+}
+
+header {
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5em;
+}
+
+nav ul li {
+    display: inline;
+    margin: 1.5em;
+}
+
+nav {
+    align-self: center;
+}
+
+footer {
+    background-color: white;
+    height: 300px;
+    text-align: center;
+}
+
+footer h2 {
+    padding-top: 130px;
+    padding-bottom: 50px;
+    font-size: 30px;
+}
+
+footer span {
+    font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+}
+
+
+#name {
+    align-self: center;
+    display: inline;
+    margin: 1.5em;
+}
+
+#body {
+    background-color: white;
+    margin: 0 auto;
+    width: 60%;
+}
+
+#intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 600px;
+}
+
+#intro img {
+    margin: 20px;
+    background-color: rgb(243, 243, 243);
+    border: solid black;
+    border-radius: 40px;
+}
+
+#bio {
+    margin: 20px;
+    width: 30%;
+}
+
+#bio h2 {
+    font-size: 60px;
+}
+
+#bio p {
+    font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    color: #6e6b6b;
+    margin-top: 10px;
+}
+
+#projects {
+    text-align: center;
+    height: 800px;
+    background-color: #f8f8f8;
+}
+
+#projects h2 {
+    padding-top: 130px;
+    font-size: 30px;
+}
