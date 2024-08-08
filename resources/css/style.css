@@ -30,6 +30,14 @@ nav {
     align-self: center;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(209, 209, 209);
+}
+
 footer {
     background-color: white;
     height: 300px;
@@ -70,7 +78,7 @@ footer span {
 #intro img {
     margin: 20px;
     background-color: rgb(243, 243, 243);
-    border: solid black;
+    border: solid #363634;
     border-radius: 40px;
 }
 
